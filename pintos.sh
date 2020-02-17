@@ -1,6 +1,6 @@
 #!/bin/bash
 SERVICE_NAME=pintos-manager
-PINTOS_CONTAINER=pintos # Make this value to yours.
+PINTOS_CONTAINER=pintos_test # Make this value to yours.
 
 function docker_cmd() {
   docker exec -it $PINTOS_CONTAINER /bin/bash -c \
